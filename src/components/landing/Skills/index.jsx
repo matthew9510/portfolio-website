@@ -21,9 +21,9 @@ export const Skills = () => (
         <p>I have experience with leading engineering teams to achieve concrete goals on strict deadlines through organizational intelligence, and thrive on learning new skills and bringing them into application. I enjoy practicing and learning about programming languages, coding websites and apps, and exploring how companies are using artificial intelligence and machine learning. </p>
         <br></br>
         <p>I am determined to learn more about opportunities that exercise my skillsets and passion for computer science to gain new insight into programming, artificial intelligence, and machine learning through a collaborative and enthusiastic team experience. </p>
-        <Button as={AnchorLink} href="#contact">
+        {/* <Button as={AnchorLink} href="#contact">
           Hire me
-        </Button>
+        </Button> */}
       </Details>
     </SkillsWrapper>
   </Wrapper>

@@ -13,9 +13,9 @@ export const Intro = () => (
 			<Details>
 				<h1>Hi There!</h1>
 				<h4>{defaultDescription}</h4>
-				<Button as={AnchorLink} href="#contact">
+				{/* <Button as={AnchorLink} href="#contact">
 					Hire me
-				</Button>
+				</Button> */}
 			</Details>
 			<Thumbnail>
 				<img src={dev} alt={defaultDescription} />
