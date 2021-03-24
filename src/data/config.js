@@ -4,7 +4,7 @@ module.exports = {
   author: 'Matthew Hess',
   url: 'https://www.matthewuhess.com',
   legalName: 'Matthew Hess',
-  defaultDescription: 'I’m Matthew and I’m a full-stack software developer!',
+  defaultDescription: 'I’m Matthew, an avid software developer!',
   socialLinks: {
     // twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/matthew9510',
