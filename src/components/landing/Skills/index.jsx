@@ -12,15 +12,11 @@ export const Skills = () => (
       </Thumbnail>
       <Details>
         <h1>More About Me:</h1>
-        <p>
-        I've got plenty of experience in coding, testing, and strategic team orientated problem-solving and communication skills.
-        </p>
+        <p>I have experience with leading engineering teams to achieve concrete goals on strict deadlines through organizational intelligence and effective communication. </p>
         <br></br>
-        <p> I plan and formulate solutions best fit for the needs of customers through direct, well informed communication along with relevant professional technological practices and tools. </p>
+        <p>I thrive on learning new skills, bringing them into application, and am experienced with coding using modern day frameworks, testing, and strategic team orientated problem-solving.</p>
         <br></br>
-        <p>I have experience with leading engineering teams to achieve concrete goals on strict deadlines through organizational intelligence, and thrive on learning new skills and bringing them into application. I enjoy practicing and learning about programming languages, coding websites and apps, and exploring how companies are using artificial intelligence and machine learning. </p>
-        <br></br>
-        <p>I am determined to learn more about opportunities that exercise my skillsets and passion for computer science to gain new insight into programming, artificial intelligence, and machine learning through a collaborative and enthusiastic team experience. </p>
+        <p>I am determined to learn more about opportunities that exercise my skill sets and passion for computer science to gain new insight into programming, artificial intelligence, and machine learning under a collaborative and enthusiastic team experience.</p> 
         {/* <Button as={AnchorLink} href="#contact">
           Hire me
         </Button> */}
