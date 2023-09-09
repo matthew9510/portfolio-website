@@ -2,9 +2,9 @@ module.exports = {
   defaultTitle: 'Matthew Hess',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
   author: 'Matthew Hess',
-  url: 'https://www.matthewuhess.com',
+  url: 'https://www.matthewhess.io',
   legalName: 'Matthew Hess',
-  defaultDescription: 'I’m Matthew, an avid software developer!',
+  defaultDescription: "I'm Matthew, an avid full-stack software developer!",
   socialLinks: {
     // twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/matthew9510',
@@ -16,19 +16,11 @@ module.exports = {
   googleAnalyticsID: 'UA-88875900-4',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
-  // social: {
-  //   facebook: 'appId',
-  //   twitter: '@smakosh',
-  // },
   address: {
     city: 'San Diego',
     region: 'Region',
     country: 'United States',
-    zipCode: '92116',
-  },
-  contact: {
-    email: 'matthewuhess@gmail.com',
-    phone: '5104027275',
+    zipCode: '92115',
   },
   foundingDate: '2021',
   recaptcha_key: '6LfhSFcaAAAAAOrrEnYzBrJ8akDH4j8-MfjxWejD',
