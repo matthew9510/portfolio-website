@@ -53,7 +53,7 @@ export const Skills = () => (
     </SkillsWrapper>
     <SkillsWrapper as={Container}>
       <Details>
-        <h1>Certificates and projects I'm focused on:</h1>
+        <h1>Certificates and Projects I'm Focused On:</h1>
         <ul style={{ color: '#707070', fontSize: '20pt' }}>
           <li>
             AWS Cloud Practitioner Certification{' '}
