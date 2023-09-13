@@ -1,7 +1,8 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Container, Button } from 'components/common';
+import { Container } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (
@@ -20,7 +21,7 @@ export const Skills = () => (
         <br></br>
         <p>
           I excel throughout the entire web development process, from planning to maintenance. I deploy web applications
-          with best CI/CD practices, leveraging modern frameworks, automated testing, database management, and server
+          with CI/CD best practices, leveraging modern frameworks, automated testing, database management, and server
           hosting to create user-friendly UI-UX designed applications that customers find both enjoyable and valuable.
         </p>
         <br></br>
@@ -29,9 +30,70 @@ export const Skills = () => (
           a keen interest in programming, artificial intelligence, and machine learning within a collaborative and
           enthusiastic team setting.
         </p>
-        {/* <Button as={AnchorLink} href="#contact">
-          Hire me
-        </Button> */}
+        <br></br>
+        <p>
+          To learn more about my work experience please refer to my
+          <a
+            key="linkedinButton"
+            href="https://www.linkedin.com/in/matthew-u-hess"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="follow me on Linkedin"
+            style={{ cursor: 'pointer' }}
+          >
+            <img
+              width="110"
+              src="/icons/linkedin-full.svg"
+              alt="Linkedin Logo"
+              style={{ display: 'inline-block', verticalAlign: 'middle', marginLeft: '-3px' }}
+            />
+          </a>
+        </p>
+      </Details>
+    </SkillsWrapper>
+    <SkillsWrapper as={Container}>
+      <Details>
+        <h1>Certificates and projects I'm focused on:</h1>
+        <ul style={{ color: '#707070', fontSize: '20pt' }}>
+          <li>
+            AWS Cloud Practitioner Certification{' '}
+            <a
+              href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLink} />
+            </a>
+          </li>
+          <li>
+            Neetcode Interview Preparation Courses{' '}
+            <a href="https://neetcode.io/courses" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLink} />
+            </a>
+          </li>
+          <li>
+            Grokking Design System Interview{' '}
+            <a
+              href="https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLink} />
+            </a>
+          </li>
+          <li>
+            Posture Feedback System{' '}
+            <a href="https://github.com/matthew9510/posture-feedback-system/tree/main" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLink} />
+            </a>
+          </li>
+          <li>
+            Spotify Playlist Generator{' '}
+            <a href="https://github.com/matthew9510/spotify-playlist-generator" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLink} />
+            </a>
+          </li>
+        </ul>
       </Details>
     </SkillsWrapper>
   </Wrapper>

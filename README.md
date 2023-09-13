@@ -72,7 +72,8 @@ I highly recommend you check this [repository](https://github.com/imorente/gatsb
 
 ## Installing
 
-Installing the dependencies
+Installing the dependencies;
+** Node V10 or V12 is required at this moment of time**
 
 ```bash
 yarn

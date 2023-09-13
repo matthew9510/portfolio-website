@@ -41,6 +41,9 @@ export const Details = styled.div`
     line-height: 1.3;
     color: #707070;
   }
+  a {
+    color: #6c63ff;
+  }
 `;
 
 export const Thumbnail = styled.div`
