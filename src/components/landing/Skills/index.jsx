@@ -82,16 +82,13 @@ export const Skills = () => (
             </a>
           </li>
           <li>
-            Posture Feedback System{' '}
-            <a href="https://github.com/matthew9510/posture-feedback-system/tree/main" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLink} />
-            </a>
-          </li>
-          <li>
             Spotify Playlist Generator{' '}
             <a href="https://github.com/matthew9510/spotify-playlist-generator" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLink} />
             </a>
+          </li>
+          <li>
+            Posture Feedback System using computer vision (private)
           </li>
         </ul>
       </Details>
